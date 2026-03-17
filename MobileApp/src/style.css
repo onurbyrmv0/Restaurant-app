@@ -1,0 +1,226 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #cda434;
+  /* Gold */
+  --color-brand-secondary: #0b1120;
+  /* Black */
+  --color-brand-light: #fdfbf7;
+  /* Silk/Cream */
+  --color-brand-rose: #be123c;
+  --color-brand-rose-dark: #9f1239;
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+}
+
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Dark mode overrides */
+  .dark body,
+  .dark {
+    color-scheme: dark;
+  }
+
+  .dark .bg-white {
+    background-color: #1e293b !important;
+  }
+
+  .dark .bg-gray-50 {
+    background-color: #0f172a !important;
+  }
+
+  .dark .bg-gray-100 {
+    background-color: #334155 !important;
+  }
+
+  .dark .min-h-screen {
+    background-color: #0b1120 !important;
+  }
+
+  .dark .text-gray-900,
+  .dark .text-gray-800,
+  .dark .text-slate-900,
+  .dark .text-slate-800 {
+    color: #f1f1f1 !important;
+  }
+
+  .dark .text-gray-700,
+  .dark .text-slate-700 {
+    color: #d4d4d4 !important;
+  }
+
+  .dark .text-gray-600,
+  .dark .text-slate-600 {
+    color: #a3a3a3 !important;
+  }
+
+  .dark .text-gray-500,
+  .dark .text-slate-500 {
+    color: #737373 !important;
+  }
+
+  .dark .text-gray-400,
+  .dark .text-slate-400 {
+    color: #555 !important;
+  }
+
+  .dark .text-stone-200 {
+    color: #444 !important;
+  }
+
+  .dark .border-gray-200,
+  .dark .border-gray-100,
+  .dark .border-gray-50,
+  .dark .divide-gray-50,
+  .dark .divide-gray-100 {
+    border-color: #2e3a4e !important;
+  }
+
+  /* Color Accents in Dark Mode */
+  .dark .bg-blue-50 {
+    background-color: rgba(59, 130, 246, 0.1) !important;
+  }
+
+  .dark .text-blue-600,
+  .dark .text-blue-500 {
+    color: #60a5fa !important;
+  }
+
+  .dark .bg-green-50,
+  .dark .bg-emerald-50,
+  .dark .bg-green-100 {
+    background-color: rgba(16, 185, 129, 0.1) !important;
+  }
+
+  .dark .text-green-600,
+  .dark .text-green-700,
+  .dark .text-emerald-600 {
+    color: #34d399 !important;
+  }
+
+  .dark .bg-red-50,
+  .dark .bg-red-100 {
+    background-color: rgba(239, 68, 68, 0.1) !important;
+  }
+
+  .dark .text-red-500,
+  .dark .text-red-600 {
+    color: #f87171 !important;
+  }
+
+  .dark .bg-purple-50 {
+    background-color: rgba(139, 92, 246, 0.1) !important;
+  }
+
+  .dark .text-purple-600 {
+    color: #a78bfa !important;
+  }
+
+  .dark .bg-amber-50,
+  .dark .bg-amber-100 {
+    background-color: rgba(245, 158, 11, 0.1) !important;
+  }
+
+  .dark .text-amber-600,
+  .dark .text-amber-700 {
+    color: #fbbf24 !important;
+  }
+
+  .dark .bg-slate-100,
+  .dark .bg-gray-100 {
+    background-color: #334155 !important;
+  }
+
+  /* Icon consistency */
+  .dark svg {
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.2));
+  }
+
+  .dark .shadow-sm,
+  .dark .shadow-md {
+    --tw-shadow-color: rgba(0, 0, 0, 0.3) !important;
+  }
+}
+
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* iOS safe areas */
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Bottom sheet shadow */
+.bottom-sheet-shadow {
+  box-shadow: 0 -10px 25px -5px rgba(0, 0, 0, 0.1), 0 -8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Drag handle */
+.drag-handle {
+  width: 40px;
+  height: 4px;
+  background-color: #e5e7eb;
+  border-radius: 2px;
+  margin: 8px auto;
+}
+
+/* Slide transitions */
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slide-up-enter-from {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.slide-up-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+/* Fade transition */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Page transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateX(-20px);
+}

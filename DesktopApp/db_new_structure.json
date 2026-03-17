@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "F0y4N8M7zscz6n7rD47Z",
+    "status": "done",
+    "totalPrice": 13.5,
+    "waiterId": "HQLAaOUzPUS5UqjkgiGY",
+    "waiterName": "onur",
+    "items": [
+      {
+        "description": "Maple syrup & berries",
+        "name": "Fluffy Pancakes",
+        "price": 12.5,
+        "id": "item_0",
+        "quantity": 1
+      }
+    ],
+    "tableNumber": 2,
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1771428254,
+      "nanoseconds": 682000000
+    },
+    "createdAt_ISO": "2026-02-18T15:24:14.682Z"
+  },
+  {
+    "_id": "0DbaKoq1qlJc3c3VGjsG",
+    "status": "completed",
+    "tableNumber": 2,
+    "totalPrice": 9.61,
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1771426961,
+      "nanoseconds": 801000000
+    },
+    "items": [
+      {
+        "name": "Breakfast Muffin",
+        "description": "Sausage, egg & cheese",
+        "price": 8.9,
+        "quantity": 1,
+        "id": "item_4"
+      }
+    ],
+    "createdAt_ISO": "2026-02-18T15:02:41.801Z"
+  },
+  {
+    "_id": "xlaJJ92Bw3mVVfDIW75S",
+    "tableNumber": 1,
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1771426760,
+      "nanoseconds": 763000000
+    },
+    "totalPrice": 15.12,
+    "items": [
+      {
+        "description": "Poached egg & sourdough",
+        "id": "item_1",
+        "price": 14,
+        "name": "Avocado Toast",
+        "quantity": 1
+      }
+    ],
+    "status": "completed",
+    "createdAt_ISO": "2026-02-18T14:59:20.763Z"
+  }
+]

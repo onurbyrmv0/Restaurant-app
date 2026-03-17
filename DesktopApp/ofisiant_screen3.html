@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Order Summary - Mobile View</title>
+<!-- Tailwind CSS CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#E11D48', // Custom rose/red for the order button
+          },
+          borderRadius: {
+            'xl': '1rem',
+            '2xl': '1.5rem',
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Styles for UI specifics -->
+<style data-purpose="layout-styles">
+    /* Prevent scrolling on the background when bottom sheet is open */
+    body {
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    /* Bottom sheet animation-ready positioning */
+    .bottom-sheet {
+      box-shadow: 0 -10px 25px -5px rgba(0, 0, 0, 0.1), 0 -8px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+    /* Simple handle for the bottom sheet */
+    .drag-handle {
+      width: 40px;
+      height: 4px;
+      background-color: #e5e7eb;
+      border-radius: 2px;
+      margin: 8px auto;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+<!-- BEGIN: Blurred Background Menu -->
+<!-- This section simulates the menu page behind the pop-up -->
+<main class="fixed inset-0 z-0 p-4 opacity-40 grayscale-[20%]">
+<header class="mb-6">
+<h1 class="text-2xl font-bold">Main Menu</h1>
+<p class="text-gray-500">Delicious items for you</p>
+</header>
+<div class="space-y-4">
+<div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex justify-between items-center">
+<div>
+<h3 class="font-semibold text-lg">Truffle Burger</h3>
+<p class="text-sm text-gray-400">Beef patty, truffle oil, swiss cheese</p>
+<span class="font-bold text-gray-700">$18.00</span>
+</div>
+<div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+</div>
+<div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex justify-between items-center">
+<div>
+<h3 class="font-semibold text-lg">Classic Fries</h3>
+<p class="text-sm text-gray-400">Sea salt and rosemary</p>
+<span class="font-bold text-gray-700">$6.50</span>
+</div>
+<div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+</div>
+<div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex justify-between items-center">
+<div>
+<h3 class="font-semibold text-lg">Caesar Salad</h3>
+<p class="text-sm text-gray-400">Romaine, croutons, parmesan</p>
+<span class="font-bold text-gray-700">$12.00</span>
+</div>
+<div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+</div>
+</div>
+</main>
+<!-- END: Blurred Background Menu -->
+<!-- BEGIN: Modal Overlay -->
+<!-- Darkened background to focus on the bottom sheet -->
+<div class="fixed inset-0 bg-black/40 z-10"></div>
+<!-- END: Modal Overlay -->
+<!-- BEGIN: Bottom Sheet Order Summary -->
+<section class="bottom-sheet fixed bottom-0 left-0 right-0 bg-white z-20 rounded-t-[2.5rem] flex flex-col max-h-[90vh]" data-purpose="order-summary-container">
+<!-- Sheet Drag Handle -->
+<div class="drag-handle"></div>
+<div class="px-6 py-4 border-b border-gray-100">
+<h2 class="text-xl font-extrabold text-gray-900">Order Summary</h2>
+<p class="text-xs text-gray-500 uppercase tracking-widest mt-1">Review your items</p>
+</div>
+<!-- BEGIN: Items List -->
+<div class="flex-1 overflow-y-auto px-6 py-4 space-y-6" data-purpose="item-list">
+<!-- Item 1 -->
+<div class="flex items-center justify-between">
+<div class="flex-1">
+<h4 class="font-bold text-gray-800">Truffle Burger</h4>
+<p class="text-sm text-gray-500">Medium Rare</p>
+<p class="text-sm font-semibold text-gray-900 mt-1">$18.00</p>
+</div>
+<!-- Quantity Picker -->
+<div class="flex items-center bg-gray-100 rounded-full px-2 py-1 space-x-4">
+<button class="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-sm active:scale-95 transition-transform text-gray-600 font-bold">−</button>
+<span class="font-bold text-gray-800 text-lg">1</span>
+<button class="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-sm active:scale-95 transition-transform text-gray-600 font-bold">+</button>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex items-center justify-between">
+<div class="flex-1">
+<h4 class="font-bold text-gray-800">Classic Fries</h4>
+<p class="text-sm text-gray-500">Large</p>
+<p class="text-sm font-semibold text-gray-900 mt-1">$6.50</p>
+</div>
+<!-- Quantity Picker -->
+<div class="flex items-center bg-gray-100 rounded-full px-2 py-1 space-x-4">
+<button class="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-sm active:scale-95 transition-transform text-gray-600 font-bold">−</button>
+<span class="font-bold text-gray-800 text-lg">2</span>
+<button class="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-sm active:scale-95 transition-transform text-gray-600 font-bold">+</button>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex items-center justify-between">
+<div class="flex-1">
+<h4 class="font-bold text-gray-800">Coke Zero</h4>
+<p class="text-sm text-gray-500">330ml</p>
+<p class="text-sm font-semibold text-gray-900 mt-1">$3.00</p>
+</div>
+<!-- Quantity Picker -->
+<div class="flex items-center bg-gray-100 rounded-full px-2 py-1 space-x-4">
+<button class="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-sm active:scale-95 transition-transform text-gray-600 font-bold">−</button>
+<span class="font-bold text-gray-800 text-lg">1</span>
+<button class="w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-sm active:scale-95 transition-transform text-gray-600 font-bold">+</button>
+</div>
+</div>
+</div>
+<!-- END: Items List -->
+<!-- BEGIN: Price Breakdown & CTA -->
+<div class="p-6 bg-gray-50 border-t border-gray-100 rounded-t-3xl">
+<div class="space-y-2 mb-6" data-purpose="price-calculation">
+<div class="flex justify-between text-gray-600">
+<span>Subtotal</span>
+<span>$34.00</span>
+</div>
+<div class="flex justify-between text-gray-600">
+<span>Tax (8%)</span>
+<span>$2.72</span>
+</div>
+<div class="flex justify-between text-xl font-extrabold text-gray-900 pt-2 border-t border-gray-200">
+<span>Total</span>
+<span>$36.72</span>
+</div>
+</div>
+<!-- Primary Action Button -->
+<button class="w-full bg-primary hover:bg-rose-700 text-white font-black text-lg py-4 rounded-2xl shadow-lg shadow-rose-200 active:scale-[0.98] transition-all flex items-center justify-center space-x-2" data-purpose="submit-order-button" id="send-order-btn">
+<span>SEND ORDER</span>
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 5l7 7-7 7M5 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<!-- Safe area spacer for modern mobile devices -->
+<div class="h-4"></div>
+</div>
+<!-- END: Price Breakdown & CTA -->
+</section>
+<!-- END: Bottom Sheet Order Summary -->
+</body></html>

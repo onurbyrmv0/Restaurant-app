@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cafevania Gourmet - Table Management</title>
+<!-- Tailwind CSS CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style data-purpose="custom-typography">
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+  </style>
+<style data-purpose="ios-safe-area">
+    /* Ensuring content fits within mobile safe areas */
+    .safe-top {
+      padding-top: env(safe-area-inset-top);
+    }
+    .safe-bottom {
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-slate-900 select-none">
+<!-- BEGIN: MainHeader -->
+<header class="bg-white border-b border-gray-200 sticky top-0 z-50 safe-top" data-purpose="navigation-bar">
+<div class="px-4 h-16 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<button aria-label="Menu" class="p-2 -ml-2 text-gray-500">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<h1 class="text-xl font-bold tracking-tight">Tables</h1>
+</div>
+<div class="flex items-center gap-3">
+<!-- Status Indicator -->
+<div class="flex items-center gap-1 bg-green-50 px-2 py-1 rounded-full border border-green-100">
+<span class="w-2 h-2 bg-green-500 rounded-full"></span>
+<span class="text-xs font-medium text-green-700 uppercase">Live</span>
+</div>
+<!-- Profile/User Placeholder -->
+<div class="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-xs font-bold text-slate-500">
+          JD
+        </div>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: TableSummary -->
+<section class="px-4 py-4 grid grid-cols-2 gap-3" data-purpose="status-summary">
+<div class="bg-white p-3 rounded-xl border border-gray-200 shadow-sm">
+<p class="text-xs text-gray-500 font-medium uppercase tracking-wider">Busy Tables</p>
+<p class="text-2xl font-bold text-green-600">8</p>
+</div>
+<div class="bg-white p-3 rounded-xl border border-gray-200 shadow-sm">
+<p class="text-xs text-gray-500 font-medium uppercase tracking-wider">Free Tables</p>
+<p class="text-2xl font-bold text-gray-400">12</p>
+</div>
+</section>
+<!-- END: TableSummary -->
+<!-- BEGIN: TableGrid -->
+<main class="px-4 pb-24" data-purpose="table-layout-grid">
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+<!-- Table Item: Busy -->
+<button class="aspect-square bg-white border-2 border-green-500 rounded-2xl flex flex-col items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" data-purpose="table-card-busy">
+<span class="text-3xl font-bold text-slate-800">1</span>
+<span class="text-xs font-bold text-green-600 uppercase tracking-widest">Busy</span>
+<span class="mt-1 text-[10px] text-gray-400">35 min</span>
+</button>
+<!-- Table Item: Free -->
+<button class="aspect-square bg-gray-100 border-2 border-transparent rounded-2xl flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform" data-purpose="table-card-free">
+<span class="text-3xl font-bold text-slate-400">2</span>
+<span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Free</span>
+</button>
+<!-- Table Item: Busy -->
+<button class="aspect-square bg-white border-2 border-green-500 rounded-2xl flex flex-col items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" data-purpose="table-card-busy">
+<span class="text-3xl font-bold text-slate-800">3</span>
+<span class="text-xs font-bold text-green-600 uppercase tracking-widest">Busy</span>
+<span class="mt-1 text-[10px] text-gray-400">12 min</span>
+</button>
+<!-- Table Item: Free -->
+<button class="aspect-square bg-gray-100 border-2 border-transparent rounded-2xl flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform" data-purpose="table-card-free">
+<span class="text-3xl font-bold text-slate-400">4</span>
+<span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Free</span>
+</button>
+<!-- Table Item: Free -->
+<button class="aspect-square bg-gray-100 border-2 border-transparent rounded-2xl flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform" data-purpose="table-card-free">
+<span class="text-3xl font-bold text-slate-400">5</span>
+<span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Free</span>
+</button>
+<!-- Table Item: Busy -->
+<button class="aspect-square bg-white border-2 border-green-500 rounded-2xl flex flex-col items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" data-purpose="table-card-busy">
+<span class="text-3xl font-bold text-slate-800">6</span>
+<span class="text-xs font-bold text-green-600 uppercase tracking-widest">Busy</span>
+<span class="mt-1 text-[10px] text-gray-400">58 min</span>
+</button>
+<!-- Table Item: Free -->
+<button class="aspect-square bg-gray-100 border-2 border-transparent rounded-2xl flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform" data-purpose="table-card-free">
+<span class="text-3xl font-bold text-slate-400">7</span>
+<span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Free</span>
+</button>
+<!-- Table Item: Busy -->
+<button class="aspect-square bg-white border-2 border-green-500 rounded-2xl flex flex-col items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" data-purpose="table-card-busy">
+<span class="text-3xl font-bold text-slate-800">8</span>
+<span class="text-xs font-bold text-green-600 uppercase tracking-widest">Busy</span>
+<span class="mt-1 text-[10px] text-gray-400">05 min</span>
+</button>
+<!-- Table Item: Free -->
+<button class="aspect-square bg-gray-100 border-2 border-transparent rounded-2xl flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform" data-purpose="table-card-free">
+<span class="text-3xl font-bold text-slate-400">9</span>
+<span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Free</span>
+</button>
+<!-- Table Item: Free -->
+<button class="aspect-square bg-gray-100 border-2 border-transparent rounded-2xl flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform" data-purpose="table-card-free">
+<span class="text-3xl font-bold text-slate-400">10</span>
+<span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Free</span>
+</button>
+<!-- Table Item: Busy -->
+<button class="aspect-square bg-white border-2 border-green-500 rounded-2xl flex flex-col items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" data-purpose="table-card-busy">
+<span class="text-3xl font-bold text-slate-800">11</span>
+<span class="text-xs font-bold text-green-600 uppercase tracking-widest">Busy</span>
+<span class="mt-1 text-[10px] text-gray-400">22 min</span>
+</button>
+<!-- Table Item: Free -->
+<button class="aspect-square bg-gray-100 border-2 border-transparent rounded-2xl flex flex-col items-center justify-center gap-1 active:scale-95 transition-transform" data-purpose="table-card-free">
+<span class="text-3xl font-bold text-slate-400">12</span>
+<span class="text-xs font-bold text-gray-400 uppercase tracking-widest">Free</span>
+</button>
+</div>
+</main>
+<!-- END: TableGrid -->
+<!-- BEGIN: BottomNavigation -->
+<nav class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 safe-bottom" data-purpose="bottom-tab-bar">
+<div class="flex h-16 items-center justify-around px-2">
+<!-- Active Tab -->
+<button aria-label="Tables view" class="flex flex-col items-center gap-1 text-slate-900">
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 3a1 1 0 00-1 1v16a1 1 0 001 1h16a1 1 0 001-1V4a1 1 0 00-1-1H4zm2 2h4v4H6V5zm0 6h4v4H6v-4zm0 6h4v2H6v-2zm6-12h6v4h-6V5zm6 6v4h-6v-4h6zm0 6v2h-6v-2h6z"></path>
+</svg>
+<span class="text-[10px] font-bold uppercase">Tables</span>
+</button>
+<button aria-label="Orders view" class="flex flex-col items-center gap-1 text-gray-400">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span class="text-[10px] font-bold uppercase">Orders</span>
+</button>
+<button aria-label="Staff view" class="flex flex-col items-center gap-1 text-gray-400">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span class="text-[10px] font-bold uppercase">Staff</span>
+</button>
+<button aria-label="Settings view" class="flex flex-col items-center gap-1 text-gray-400">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span class="text-[10px] font-bold uppercase">Settings</span>
+</button>
+</div>
+</nav>
+<!-- END: BottomNavigation -->
+<script data-purpose="interaction-logic">
+    /* Simple script to handle visual feedback on table selection */
+    document.querySelectorAll('[data-purpose^="table-card"]').forEach(card => {
+      card.addEventListener('click', function() {
+        // Logic for opening table details could go here
+        console.log('Table clicked:', this.querySelector('span:first-child').innerText);
+      });
+    });
+  </script>
+</body></html>

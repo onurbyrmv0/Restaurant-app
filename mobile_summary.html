@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="az"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Order Summary Sheet</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#14b8a2",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#11211f",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "2xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<!-- Background: Dimmed Menu View (Simulating the screen behind the modal) -->
+<div class="relative min-h-screen w-full overflow-hidden bg-background-light dark:bg-background-dark">
+<!-- Top App Bar (Background) -->
+<div class="flex items-center p-4 justify-between opacity-40">
+<div class="text-slate-900 dark:text-slate-100 flex size-12 items-center">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-lg font-bold">Menu</h2>
+<div class="flex w-12 items-center justify-end">
+<span class="material-symbols-outlined text-2xl">search</span>
+</div>
+</div>
+<!-- Menu Grid (Background) -->
+<div class="grid grid-cols-2 gap-4 p-4 opacity-30 pointer-events-none">
+<div class="flex flex-col gap-3">
+<div class="w-full aspect-square bg-slate-200 dark:bg-slate-800 rounded-xl bg-cover bg-center" data-alt="Traditional grilled meat kabab dish" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCJgc_8BFN6PL8fDOn8bTcjXahCOu63-c1B6ARxtQHi_UlrqPEpRKeHp9Ni9q2zUP8ifEXNvg_0Xs5IUbcr4IjvGxGtcV2k-VZAbJvfggWwcjreoifnlrX5O5wpYqoLdJK-4k6-_QyyctlbHini0q28ceKkOn8lA5hWeaJBiIlQZ5tZgEPUu6ozxZCrcbcN8T9M9sOqFjmItghiJfHBz4eT7LzJQP6fUamQiKpKIKrEofATYBg5hWrOTFZQ3OQXCQ7blYSL5EsmaS4')"></div>
+<div class="h-4 w-2/3 bg-slate-200 dark:bg-slate-800 rounded"></div>
+<div class="h-3 w-1/3 bg-slate-200 dark:bg-slate-800 rounded"></div>
+</div>
+<div class="flex flex-col gap-3">
+<div class="w-full aspect-square bg-slate-200 dark:bg-slate-800 rounded-xl bg-cover bg-center" data-alt="Green herbal soup in a bowl" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBQ0RdvZAhROOapCmx1H8YqbKrcAjUS5vS-7Y8f-1DVOYR16giPDbh_FLqweiFdQtAAxGWVJsJiYAWLE58Az3EUhLpsiOQj9j9sSJaYVoRD38dhYz7ydxIfSMZRSk0FvOROUmEo5V0E_Z7x6A18hCPiQ99bi4Y2uTYc4Q0ZfixGqnRZ9jR12UbQbrNrhlYfSPWX5a1FPHekMJkYYwshERnvNbzdmfBM0e-124kkpxIms5sD6akWYKGkpM6rLpNoLWSoZyzuADQ6EgI')"></div>
+<div class="h-4 w-2/3 bg-slate-200 dark:bg-slate-800 rounded"></div>
+<div class="h-3 w-1/3 bg-slate-200 dark:bg-slate-800 rounded"></div>
+</div>
+<div class="flex flex-col gap-3">
+<div class="w-full aspect-square bg-slate-200 dark:bg-slate-800 rounded-xl bg-cover bg-center" data-alt="Freshly baked flatbread on table" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB-HCscxCaj4TUuxwbmcHGFGgS5E96wJH0BNr9sHvYFRZJCS0ZBYe2sJR9Y_AqbP7JlHwAoQVS7V6VRPsraxNpo0nUoXHQwcmoObhArxE9NvB8RCHYmpYDdOM6tnsnMLJNt6nl_cxQtGF_-yp3aDe4Y6HYuT7w7WsmFLCfHUgswU5ZyANwyILpHY1sB-LJ79EZ2ND_-O6lkTvv2GDao--WM74Ui8FFCryv-eIxBryZtHETMQh7aGffjtytFB6q9wU7iZb0w41Qsl2w')"></div>
+<div class="h-4 w-2/3 bg-slate-200 dark:bg-slate-800 rounded"></div>
+<div class="h-3 w-1/3 bg-slate-200 dark:bg-slate-800 rounded"></div>
+</div>
+<div class="flex flex-col gap-3">
+<div class="w-full aspect-square bg-slate-200 dark:bg-slate-800 rounded-xl bg-cover bg-center" data-alt="Healthy colorful vegetable salad bowl" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAi8V-sPhSYUvdnkiPWteLEq_0rFjaT1ChXUjnsIiiCYkoT-1flTQ6Vyhuo1OldMe-gJlOLpzk56lAO94_5xD2Tn8ntSr3ETpyCxt8vpvGi1Fxzbl9e3vy401UR4EK_s5RZpslwdevTxc2OzrL_VzVGo3Yp1u3IbexUurV6m7YpBCHjZJn65fn6m1TUOL-Mqe_MEEzv_-FBjjb7jW-J9yChT7a-V5_-4RJUohmwY2H9d9KmbkO5_4QNVDxmztS2sfrTdnhmGj5KpO4')"></div>
+<div class="h-4 w-2/3 bg-slate-200 dark:bg-slate-800 rounded"></div>
+<div class="h-3 w-1/3 bg-slate-200 dark:bg-slate-800 rounded"></div>
+</div>
+</div>
+<!-- Dimming Overlay -->
+<div class="absolute inset-0 bg-slate-900/40 backdrop-blur-[2px] z-10"></div>
+<!-- Bottom Sheet Modal -->
+<div class="absolute bottom-0 left-0 right-0 z-20 flex flex-col max-h-[90%] bg-white dark:bg-slate-900 rounded-t-[2.5rem] shadow-2xl ring-1 ring-black/5">
+<!-- Drag Handle -->
+<div class="flex flex-col items-center pt-3 pb-2">
+<div class="h-1.5 w-12 rounded-full bg-slate-200 dark:bg-slate-700"></div>
+</div>
+<!-- Header -->
+<div class="px-6 py-4 flex items-center justify-between border-b border-slate-100 dark:border-slate-800">
+<h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100">Sifariş Xülasəsi</h2>
+<button class="size-8 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500">
+<span class="material-symbols-outlined text-xl">close</span>
+</button>
+</div>
+<!-- Scrollable Order List -->
+<div class="flex-1 overflow-y-auto px-6 py-4 space-y-6">
+<!-- Item 1: Kabab -->
+<div class="flex items-center justify-between group">
+<div class="flex items-center gap-4">
+<div class="size-20 rounded-2xl bg-cover bg-center shadow-sm" data-alt="Close up of gourmet meat kabab" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBUVQApkE9UJvwmBnqRtLMsTY_EML8Z7YLic_Imp40LpBhPFGTlV0y-nMfEsprzM5t9LTHr6C4SY6zfYmqDR-PB14o708hUxHE83Wt05FcJjZ_iMXOU_pzI_W594788R5JEnbZppHSTzaADFfFqTJ3osbyRtMRY46wPiFo7V2NcrB7MN_uytLVEKD-WTcyQj8_YMyvaV2IEk8_VxdQKpjBj-Of59K26YruYwfDwVsNBAx0Z-GsvxC_rrLzRXtuazVnSi7JVBUj4jGA')"></div>
+<div class="flex flex-col">
+<h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100">Kabab</h3>
+<p class="text-primary font-medium">15.00 AZN</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Süfrə üçün xüsusi</p>
+</div>
+</div>
+<div class="flex items-center bg-background-light dark:bg-slate-800 rounded-full px-2 py-1.5 gap-4 ring-1 ring-slate-200 dark:ring-slate-700">
+<button class="size-8 flex items-center justify-center rounded-full bg-white dark:bg-slate-700 shadow-sm text-slate-900 dark:text-white transition-active active:scale-95">
+<span class="material-symbols-outlined text-lg">remove</span>
+</button>
+<span class="text-lg font-bold text-slate-900 dark:text-white min-w-[1ch] text-center">2</span>
+<button class="size-8 flex items-center justify-center rounded-full bg-primary text-white shadow-lg shadow-primary/30 transition-active active:scale-95">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+</div>
+<!-- Item 2: Dovğa -->
+<div class="flex items-center justify-between group">
+<div class="flex items-center gap-4">
+<div class="size-20 rounded-2xl bg-cover bg-center shadow-sm" data-alt="Traditional herbal yogurt soup" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAHLccfxrhDZTgSgAmOKL20aOvYNDkKQgqYNbq63hRBk0Qj4I_q0Ok0Y7dZnZ0vV155JLZyk9c3Nt4b0TCUXc9UNjbAqp2p-TJbEoIArVP0iqP9CSD_AbbrTCS6rv8J3sNPI_Lc1buTyUuNImFaksIo3Sta-AeG9iPsTnD_Q59o9_sm7-7X0tI9xBh9HjvFVUezTSeDnpxgQwi2P9xeL3HTClPkDcKj6aqvhLPIGGypiuOsw7JTRoVAGrJfPO-ytA4ZkzP__wckTpQ')"></div>
+<div class="flex flex-col">
+<h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100">Dovğa</h3>
+<p class="text-primary font-medium">4.00 AZN</p>
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Soyuq servis</p>
+</div>
+</div>
+<div class="flex items-center bg-background-light dark:bg-slate-800 rounded-full px-2 py-1.5 gap-4 ring-1 ring-slate-200 dark:ring-slate-700">
+<button class="size-8 flex items-center justify-center rounded-full bg-white dark:bg-slate-700 shadow-sm text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-lg">remove</span>
+</button>
+<span class="text-lg font-bold text-slate-900 dark:text-white min-w-[1ch] text-center">1</span>
+<button class="size-8 flex items-center justify-center rounded-full bg-primary text-white shadow-lg shadow-primary/30">
+<span class="material-symbols-outlined text-lg">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Footer: Summary & Action -->
+<div class="p-6 space-y-4 border-t border-slate-100 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md">
+<div class="space-y-2">
+<div class="flex justify-between items-center text-slate-500 dark:text-slate-400">
+<span class="text-sm">Məbləğ</span>
+<span class="text-sm">34.00 AZN</span>
+</div>
+<div class="flex justify-between items-center text-slate-500 dark:text-slate-400">
+<span class="text-sm">Xidmət haqqı (10%)</span>
+<span class="text-sm">3.40 AZN</span>
+</div>
+<div class="flex justify-between items-center pt-2">
+<span class="text-xl font-bold text-slate-900 dark:text-slate-100">Cəmi</span>
+<span class="text-2xl font-bold text-primary">37.40 AZN</span>
+</div>
+</div>
+<button class="w-full h-16 bg-primary hover:bg-primary/90 text-white rounded-2xl font-bold text-lg flex items-center justify-center gap-3 transition-colors shadow-xl shadow-primary/20">
+<span class="material-symbols-outlined">send</span>
+                    Sifarişi Göndər
+                </button>
+<!-- Bottom Safe Area Spacer (iOS style) -->
+<div class="h-2"></div>
+</div>
+</div>
+</div>
+</body></html>

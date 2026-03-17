@@ -1,0 +1,625 @@
+[
+  {
+    "categoryId": "breakfast_set",
+    "name": "Silver Breakfast",
+    "description": "Ağ pendir, holland pendiri, zeytun, bal, pomidor, xiyar, tavada yumurta, mürəbbə, kərə yağı, kolbasa 2 çeşid, süd, nesquik, limitsiz çay",
+    "price": 25.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/6779456de230c0d32d80c876_0.jpg"
+  },
+  {
+    "categoryId": "breakfast_set",
+    "name": "Gold Breakfast",
+    "description": "Ağ pendir, krem pendir, holland pendiri, zeytun, bal, qaymaq, mürəbbə, pomidor, xiyar, kolbasa, sosiska, tavada yumurta, menemen, sucuklu yumurta, kərə yağı, süd, nesquik, limitsiz çay",
+    "price": 35.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677945b8e230c0d32d80c877_0.jpg"
+  },
+  {
+    "categoryId": "breakfast_set",
+    "name": "Premium Breakfast",
+    "description": "Ağ pendir, krem pendir, holland pendiri, zeytun 2 çeşid, bal, qaymaq, mürəbbə, pomidor, xiyar, kolbasa, sosiska, yumurta çörək, xama, menemen, kükü, sucuklu yumurta, tavada yumurta, süd, nesquik, ikra 2 çeşid, limitsiz çay",
+    "price": 55.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794657e230c0d32d80c878_0.jpg"
+  },
+  {
+    "categoryId": "breakfast",
+    "name": "Menemen",
+    "description": "",
+    "price": 5.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794678e230c0d32d80c87a_0.jpg"
+  },
+  {
+    "categoryId": "breakfast",
+    "name": "Kaşarlı yumurta",
+    "description": "",
+    "price": 5.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794687e230c0d32d80c87b_0.jpg"
+  },
+  {
+    "categoryId": "breakfast",
+    "name": "Sucuklu yumurta",
+    "description": "",
+    "price": 5.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794692e230c0d32d80c87c_0.jpg"
+  },
+  {
+    "categoryId": "breakfast",
+    "name": "Kükü",
+    "description": "",
+    "price": 5.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/6779469be230c0d32d80c87d_0.jpg"
+  },
+  {
+    "categoryId": "breakfast",
+    "name": "Omlet",
+    "description": "",
+    "price": 4.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677946a3e230c0d32d80c87e_0.jpg"
+  },
+  {
+    "categoryId": "pizza",
+    "name": "Margarita pizza",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677946bee230c0d32d80c880_0.jpg"
+  },
+  {
+    "categoryId": "pizza",
+    "name": "İtalian pizza",
+    "description": "Pendir, sous, sucuk",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677946d4e230c0d32d80c881_0.jpg"
+  },
+  {
+    "categoryId": "pizza",
+    "name": "Meksikan pizza",
+    "description": "Pendir, toyuq file, qırmızı soğan, Jalapeno bibər, pepperoni bibər",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/6779471be230c0d32d80c882_0.jpg"
+  },
+  {
+    "categoryId": "pizza",
+    "name": "Premium pizza",
+    "description": "Pendir, soğan, basdırma, bibər, sucuk",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677947fbe230c0d32d80c883_0.jpg"
+  },
+  {
+    "categoryId": "pizza",
+    "name": "Mix pizza",
+    "description": "Pendir, göbələk, vetçina, salam kolbasa",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794818e230c0d32d80c884_0.jpg"
+  },
+  {
+    "categoryId": "nuggets",
+    "name": "3-lü nuggets",
+    "description": "",
+    "price": 5.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794834e230c0d32d80c886_0.jpg"
+  },
+  {
+    "categoryId": "nuggets",
+    "name": "6-lı nuggets",
+    "description": "",
+    "price": 6.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794843e230c0d32d80c887_0.jpg"
+  },
+  {
+    "categoryId": "nuggets",
+    "name": "9-lu nuggets",
+    "description": "",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/6779485ce230c0d32d80c888_0.jpg"
+  },
+  {
+    "categoryId": "nuggets",
+    "name": "Kartof fri",
+    "description": "",
+    "price": 3.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/6779486ae230c0d32d80c889_0.jpg"
+  },
+  {
+    "categoryId": "salads",
+    "name": "Mix salat",
+    "description": "Kahı, kök, pomidor, xiyar, qarğıdalı, toyuq, pendir, suxari, sous, ədviyyatlar",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677948c7e230c0d32d80c88b_0.jpg"
+  },
+  {
+    "categoryId": "salads",
+    "name": "Avocado salat",
+    "description": "Avocado, popcorn, sous, mal əti, kahı, suxari",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677948e0e230c0d32d80c88c_0.jpg"
+  },
+  {
+    "categoryId": "salads",
+    "name": "Ton balıq salatı",
+    "description": "Ton balıq, qarğıdalı, mal əti, vetçina, ballı-xardal, xiyar, kahı, pomidor",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/6779490de230c0d32d80c88d_0.jpg"
+  },
+  {
+    "categoryId": "salads",
+    "name": "Vetçina salatı",
+    "description": "Vetçina, BBQ sous, mayonez, xiyar, popcorn, pomidor, petruşka, kahı, suxari",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794935e230c0d32d80c88e_0.jpg"
+  },
+  {
+    "categoryId": "salads",
+    "name": "Sezar salatı toyuqlu",
+    "description": "Sezar sous, suxari, yumurta, kahı,pomidor, kaşar, toyuq əti",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794961e230c0d32d80c88f_0.jpg"
+  },
+  {
+    "categoryId": "salads",
+    "name": "Sezar salatı krevetkalı",
+    "description": "Sezar sous, suxari, yumurta, kahı, pomidor, kaşar, krevetka",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794980e230c0d32d80c890_0.jpg"
+  },
+  {
+    "categoryId": "salads",
+    "name": "Kapriz salatı",
+    "description": "",
+    "price": 6.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/6779498de230c0d32d80c891_0.jpg"
+  },
+  {
+    "categoryId": "burger_menu",
+    "name": "Beef burger",
+    "description": "Burger çörəyi, dana əti, göbələk, kahı, qırmızı soğan, sous, kartof fri",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794a06e230c0d32d80c893_0.jpg"
+  },
+  {
+    "categoryId": "burger_menu",
+    "name": "Chicken burger",
+    "description": "Burger çörəyi, toyuq file, BBQ sous, kahı, turşu, pomidor, burger sous, kartof fri",
+    "price": 6.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794a3ce230c0d32d80c894_0.jpg"
+  },
+  {
+    "categoryId": "burger_menu",
+    "name": "Special burger",
+    "description": "Burger çörəyi, vetçina, turşu pomidor, kahı, mayonez, dana əti, kartof fri",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794a90e230c0d32d80c895_0.jpg"
+  },
+  {
+    "categoryId": "burger_menu",
+    "name": "Taste burger",
+    "description": "Burger çörəyi, mal əti, cips, vetçina, BBQ sousu, kartof fri",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794b19e230c0d32d80c896_0.jpg"
+  },
+  {
+    "categoryId": "burger_menu",
+    "name": "Club sandwich",
+    "description": "Tost çörəyi, toyuq file, pomidor, xiyar",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794b3ce230c0d32d80c897_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Single espresso",
+    "description": "",
+    "price": 4.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794bade230c0d32d80c899_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Double espresso",
+    "description": "",
+    "price": 5.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794bb8e230c0d32d80c89a_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Americano",
+    "description": "Hot / Cold",
+    "price": 6.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794be3e230c0d32d80c89b_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Lungo",
+    "description": "",
+    "price": 6.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794bede230c0d32d80c89c_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Cortado",
+    "description": "",
+    "price": 6.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794bf8e230c0d32d80c89d_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Decaf",
+    "description": "Hot / Cold",
+    "price": 6.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794c08e230c0d32d80c89e_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Cappuccino",
+    "description": "Hot / Cold",
+    "price": 6.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794c19e230c0d32d80c89f_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Latte",
+    "description": "Hot / Cold",
+    "price": 6.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794c28e230c0d32d80c8a0_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Spanich latte",
+    "description": "Hot / Cold",
+    "price": 7.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794c38e230c0d32d80c8a1_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Salted caramel latte",
+    "description": "Hot / Cold",
+    "price": 7.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794c56e230c0d32d80c8a2_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Caramel macchiato",
+    "description": "Hot / Cold",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794c90e230c0d32d80c8a3_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Raf",
+    "description": "Hot / Cold",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794df2e230c0d32d80c8a4_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Matcha",
+    "description": "Hot / Cold",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794e03e230c0d32d80c8a5_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Affogato",
+    "description": "Cold",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794e11e230c0d32d80c8a6_0.jpg"
+  },
+  {
+    "categoryId": "coffee",
+    "name": "Frappe",
+    "description": "Cold",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794e1ee230c0d32d80c8a7_0.jpg"
+  },
+  {
+    "categoryId": "chocolate",
+    "name": "Mocha",
+    "description": "Hot / Cold",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794e42e230c0d32d80c8a9_0.jpg"
+  },
+  {
+    "categoryId": "chocolate",
+    "name": "White chocolate mocha",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794e52e230c0d32d80c8aa_0.jpg"
+  },
+  {
+    "categoryId": "chocolate",
+    "name": "Hot chocolate",
+    "description": "",
+    "price": 6.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794e5fe230c0d32d80c8ab_0.jpg"
+  },
+  {
+    "categoryId": "milkshake_and_cocktail",
+    "name": "Kit-kat / Oreo boom",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794e84e230c0d32d80c8ad_0.jpg"
+  },
+  {
+    "categoryId": "milkshake_and_cocktail",
+    "name": "Milkshake",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794e8fe230c0d32d80c8ae_0.jpg"
+  },
+  {
+    "categoryId": "mocktail_s",
+    "name": "Red Pino Colada",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794ee2e230c0d32d80c8b0_0.jpg"
+  },
+  {
+    "categoryId": "mocktail_s",
+    "name": "Blue-white show",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794ef9e230c0d32d80c8b1_0.jpg"
+  },
+  {
+    "categoryId": "mocktail_s",
+    "name": "Mango-strawberry bull",
+    "description": "",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794f0de230c0d32d80c8b2_0.jpg"
+  },
+  {
+    "categoryId": "mocktail_s",
+    "name": "Tokio night's",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794f2ce230c0d32d80c8b3_0.jpg"
+  },
+  {
+    "categoryId": "mocktail_s",
+    "name": "Dark day",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794f36e230c0d32d80c8b4_0.jpg"
+  },
+  {
+    "categoryId": "mocktail_s",
+    "name": "Mix fruit mocktail",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794f46e230c0d32d80c8b5_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Mojito",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794f7ee230c0d32d80c8b7_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Strawberry mojito",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794f8ce230c0d32d80c8b8_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Rainbow  cocktail",
+    "description": "",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794fa7e230c0d32d80c8b9_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Blue  Hawailan",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794fbbe230c0d32d80c8ba_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Frozen apple mint",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794fc8e230c0d32d80c8bb_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Frozen strawberry",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67794fd7e230c0d32d80c8bc_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Homemade lemonade",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67795019e230c0d32d80c8bd_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Homemade ice tea",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67795024e230c0d32d80c8be_0.jpg"
+  },
+  {
+    "categoryId": "signature",
+    "name": "Homemade ice green tea",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/67795031e230c0d32d80c8bf_0.jpg"
+  },
+  {
+    "categoryId": "tea",
+    "name": "Black Tea",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3d96f46137226e35c2ee_0.jpg"
+  },
+  {
+    "categoryId": "tea",
+    "name": "Green Tea",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3da0f46137226e35c2ef_0.jpg"
+  },
+  {
+    "categoryId": "tea",
+    "name": "Jasmin Green Tea",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3daef46137226e35c2f0_0.jpg"
+  },
+  {
+    "categoryId": "tea",
+    "name": "Indian Tea",
+    "description": "",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3db8f46137226e35c2f1_0.jpg"
+  },
+  {
+    "categoryId": "tea",
+    "name": "Fruit Tea",
+    "description": "",
+    "price": 8.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3dbff46137226e35c2f2_0.jpg"
+  },
+  {
+    "categoryId": "brew_bar",
+    "name": "Chemex",
+    "description": "",
+    "price": 6.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3ddaf46137226e35c2f4_0.jpg"
+  },
+  {
+    "categoryId": "brew_bar",
+    "name": "V60",
+    "description": "",
+    "price": 6.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3de1f46137226e35c2f5_0.jpg"
+  },
+  {
+    "categoryId": "brew_bar",
+    "name": "Turkish coffee",
+    "description": "",
+    "price": 4.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3debf46137226e35c2f6_0.jpg"
+  },
+  {
+    "categoryId": "fresh_juice",
+    "name": "Orange",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e01f46137226e35c2f8_0.jpg"
+  },
+  {
+    "categoryId": "fresh_juice",
+    "name": "Smoothie",
+    "description": "",
+    "price": 8.5,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e0bf46137226e35c2f9_0.jpg"
+  },
+  {
+    "categoryId": "soft_drinks",
+    "name": "Coca-Cola",
+    "description": "",
+    "price": 4.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e20f46137226e35c2fb_0.jpg"
+  },
+  {
+    "categoryId": "soft_drinks",
+    "name": "Fanta-Sprite",
+    "description": "",
+    "price": 4.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e2bf46137226e35c2fc_0.jpg"
+  },
+  {
+    "categoryId": "soft_drinks",
+    "name": "Sirab Premium",
+    "description": "",
+    "price": 3.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e34f46137226e35c2fd_0.jpg"
+  },
+  {
+    "categoryId": "soft_drinks",
+    "name": "Red Bull",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e3cf46137226e35c2fe_0.jpg"
+  },
+  {
+    "categoryId": "soft_drinks",
+    "name": "Red Bull strawberry",
+    "description": "",
+    "price": 10.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e47f46137226e35c2ff_0.jpg"
+  },
+  {
+    "categoryId": "soft_drinks",
+    "name": "Ayran",
+    "description": "",
+    "price": 1.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e4cf46137226e35c300_0.jpg"
+  },
+  {
+    "categoryId": "additional",
+    "name": "Syrup",
+    "description": "",
+    "price": 2.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e67f46137226e35c302_0.jpg"
+  },
+  {
+    "categoryId": "additional",
+    "name": "Lacoste Free Milk",
+    "description": "",
+    "price": 2.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e73f46137226e35c303_0.jpg"
+  },
+  {
+    "categoryId": "desserts",
+    "name": "San Sebastian",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e89f46137226e35c305_0.jpg"
+  },
+  {
+    "categoryId": "desserts",
+    "name": "Napoleon Cake",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e92f46137226e35c306_0.jpg"
+  },
+  {
+    "categoryId": "desserts",
+    "name": "Ballı Tort",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3e9ef46137226e35c307_0.jpg"
+  },
+  {
+    "categoryId": "desserts",
+    "name": "Çiyələkli çizkeyk",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3eabf46137226e35c308_0.jpg"
+  },
+  {
+    "categoryId": "desserts",
+    "name": "Şokoladlı çizkeyk",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3eb6f46137226e35c309_0.jpg"
+  },
+  {
+    "categoryId": "desserts",
+    "name": "Snickers tortu",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3ebff46137226e35c30a_0.jpg"
+  },
+  {
+    "categoryId": "desserts",
+    "name": "Karamelli çizkeyk",
+    "description": "",
+    "price": 7.0,
+    "image": "https://eu2.contabostorage.com/8ca2aa4b234f427a8bcedfb5dff242ff:nova-listening/menyuaz/677a3ec8f46137226e35c30b_0.jpg"
+  }
+]
