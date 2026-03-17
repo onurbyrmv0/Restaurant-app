@@ -2,7 +2,8 @@
 FROM node:20-alpine as build-stage
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+ENV ELECTRON_SKIP_BINARY_DOWNLOAD=1
+RUN npm install --legacy-peer-deps
 COPY . .
 RUN npm run build
 
