@@ -5,5 +5,5 @@ services:
       dockerfile: Dockerfile
     container_name: cafevania-waiter-standalone
     ports:
-      - "9002:80"
+      - "9081:80"
     restart: always
