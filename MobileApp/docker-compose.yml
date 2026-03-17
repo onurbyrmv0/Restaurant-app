@@ -1,0 +1,9 @@
+services:
+  waiter-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cafevania-waiter-standalone
+    ports:
+      - "9002:80"
+    restart: always

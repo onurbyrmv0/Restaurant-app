@@ -1,0 +1,9 @@
+services:
+  kassa-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cafevania-kassa-standalone
+    ports:
+      - "9001:80"
+    restart: always
